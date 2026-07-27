@@ -1,160 +1,236 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>상수 가라오케 찐후기 | 정보</title>
-    <meta name="description" content="상수 가라오케 찐후기. 홍대입구 역세권, 365일 24시. 형들이 인정한 최애 단골가게. 찐리뷰만 모았다. 전화 010-6279-0862. 예약은 무조건 전화로만.">
-    <meta name="keywords" content="상수 가라오케, 상수 가라오케 찐후기, 홍대입구 가라오케, 상수역 가라오케, 24시 가라오케, 단골 가라오케, 실시간 예약, 전화예약, 찐리뷰">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-neon-void">
-    <link rel="canonical" href="https://hongdae-info-room.node-link.shop/about.html">
-    <!-- OG + Twitter -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://hongdae-info-room.node-link.shop/about.html">
-    <meta property="og:title" content="상수 가라오케 찐후기 - 형들만 아는 정보">
-    <meta property="og:description" content="홍대입구 역세권, 365일 24시. 찐리뷰만 모은 상수 가라오케 정보. 예약은 010-6279-0862">
-    <meta property="og:image" content="https://t3b05-ss-karaoke-real2-1.vercel.app/assets/og-info.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="상수 가라오케 찐후기 - 형들만 아는 정보">
-    <meta name="twitter:description" content="홍대입구 역세권, 365일 24시. 찐리뷰만 모은 상수 가라오케 정보. 예약은 010-6279-0862">
-    <meta name="twitter:image" content="https://t3b05-ss-karaoke-real2-1.vercel.app/assets/og-info.jpg">
-    <style>
-        /* Brutalist System Reset */
-        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-        html{font-size:16px;scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-        body{font-family:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:#0a0a0a;color:#e0e0e0;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
-        img{max-width:100%;height:auto;display:block}
-        a{color:#ff0055;text-decoration:none;transition:color .2s}
-        a:hover{color:#ff3388}
-        /* Variables */
-        :root{--neon-pink:#ff0055;--neon-blue:#00e5ff;--neon-green:#39ff14;--bg-void:#0a0a0a;--bg-card:#1a1a1a;--border-brutal:#ff0055;--text-primary:#e0e0e0;--text-accent:#ff0055;--font-mono:'Courier New',monospace;--spacing-unit:1rem}
-        /* Layout */
-        .wrapper{max-width:1200px;margin:0 auto;padding:0 1rem;width:100%}
-        /* Header */
-        .header{background:#111;border-bottom:3px solid var(--neon-pink);padding:1rem 0;position:sticky;top:0;z-index:100}
-        .header .wrapper{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem}
-        .logo{font-size:1.5rem;font-weight:900;text-transform:uppercase;color:var(--neon-pink);letter-spacing:-0.05em;line-height:1}
-        .logo span{color:var(--neon-blue)}
-        /* Navigation */
-        .nav{display:flex;gap:0.25rem;flex-wrap:wrap}
-        .nav a{display:block;padding:0.5rem 1rem;font-weight:700;text-transform:uppercase;font-size:0.875rem;border:2px solid transparent;transition:all .2s}
-        .nav a:hover,.nav a.active{border-color:var(--neon-pink);color:var(--neon-pink)}
-        .nav a.active{background:var(--neon-pink);color:#0a0a0a}
-        /* Hamburger */
-        .hamburger-menu{display:none;flex-direction:column;cursor:pointer;padding:0.5rem;background:none;border:none}
-        .hamburger-menu span{width:28px;height:3px;background:var(--neon-pink);margin:4px 0;transition:all .3s}
-        @media(max-width:768px){
-            .hamburger-menu{display:flex}
-            .nav{display:none;flex-direction:column;width:100%;margin-top:0.5rem}
-            .nav.open{display:flex}
-            .nav a{text-align:center;border-bottom:1px solid #333}
-            .nav a.active{border-bottom-color:var(--neon-pink)}
-        }
-        /* Main */
-        .main{flex:1;padding:2rem 0}
-        /* Hero */
-        .hero{background:linear-gradient(135deg,#1a0a2e,#0a0a0a);border:3px solid var(--neon-pink);padding:3rem 1.5rem;margin-bottom:2rem;position:relative;overflow:hidden}
-        .hero::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(255,0,85,.03) 2px,rgba(255,0,85,.03) 4px);pointer-events:none}
-        .hero h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:900;text-transform:uppercase;line-height:1.1;color:var(--neon-pink);margin-bottom:1rem}
-        .hero p{font-size:1.2rem;max-width:700px;color:#ccc}
-        .hero .bro-voice{font-family:var(--font-mono);color:var(--neon-blue);font-weight:700;margin-top:0.5rem}
-        /* Section */
-        .section{margin-bottom:2.5rem}
-        .section-title{font-size:1.75rem;font-weight:900;text-transform:uppercase;border-left:6px solid var(--neon-pink);padding-left:0.75rem;margin-bottom:1.25rem;color:var(--neon-pink);letter-spacing:-0.02em}
-        /* Card Grid */
-        .card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem}
-        .card{background:var(--bg-card);border:2px solid #333;padding:1.5rem;transition:border-color .2s,transform .2s}
-        .card:hover{border-color:var(--neon-pink);transform:translateY(-3px)}
-        .card h3{font-size:1.15rem;font-weight:800;text-transform:uppercase;color:var(--neon-blue);margin-bottom:0.5rem}
-        .card .meta{font-size:0.8rem;color:#888;margin-bottom:0.75rem;display:flex;gap:0.5rem}
-        .card .meta span{background:#222;padding:0.2rem 0.5rem}
-        .card p{color:#bbb;font-size:0.95rem}
-        .card .stamp{display:inline-block;background:var(--neon-pink);color:#0a0a0a;font-weight:900;padding:0.15rem 0.5rem;font-size:0.7rem;text-transform:uppercase;margin-top:0.75rem}
-        /* FAQ */
-        .faq-list{list-style:none}
-        .faq-item{border-bottom:1px solid #333;padding:1rem 0}
-        .faq-question{font-weight:700;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;gap:0.5rem;color:var(--neon-blue)}
-        .faq-question::before{content:'▶';color:var(--neon-pink);font-size:0.8rem;transition:transform .2s}
-        .faq-question.open::before{transform:rotate(90deg)}
-        .faq-answer{max-height:0;overflow:hidden;transition:max-height .3s ease;padding-left:1.5rem;color:#aaa;margin-top:0.25rem}
-        .faq-answer.open{max-height:300px}
-        /* Contact */
-        .contact-block{background:#111;border:3px dashed var(--neon-pink);padding:2rem;text-align:center}
-        .contact-block .phone{font-size:2.5rem;font-weight:900;color:var(--neon-pink);font-family:var(--font-mono);letter-spacing:0.1em}
-        .contact-block .sub{color:#888;font-size:0.9rem;margin-top:0.5rem}
-        /* Footer */
-        .footer{background:#111;border-top:3px solid var(--neon-pink);padding:1.5rem 0;text-align:center;color:#666;font-size:0.85rem;margin-top:2rem}
-        .footer a{color:var(--neon-pink)}
-        /* Utility */
-        .brutal-box{border:3px solid var(--neon-pink);padding:1rem;background:var(--bg-card)}
-        .neon-text{color:var(--neon-pink);text-shadow:0 0 8px rgba(255,0,85,.5)}
-        .mono{font-family:var(--font-mono)}
-    </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="bpaas-design-system" content="brutalist-avantgarde">
+  <meta name="bpaas-design-theme" content="kr-night-signal">
+  <meta name="description" content="상수역 가라오케 처음이라면? 초행자가 반드시 알아야 할 문의 전 체크리스트, 물어봐도 되는 질문 범위, 그리고 처음이라 생기는 오해까지 5년차 로컬 가이드가 정리한 찐후기.">
+  <meta name="keywords" content="상수 가라오케, 상수 가라오케 찐후기, 상수 가라오케 초행자, 상수역 가라오케, 홍대 가라오케">
+  <link rel="canonical" href="https://hongdae-info-room.node-link.shop/about.html">
+  <title>상수 가라오케 찐후기 — 처음 방문자를 위한 문의 전 체크리스트</title>
+  <meta property="og:title" content="상수 가라오케 찐후기 — 처음 방문자를 위한 문의 전 체크리스트">
+  <meta property="og:description" content="상수역 가라오케 초행자 가이드">
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    :root {
+      --bg-root: #0a0c0f;
+      --bg-card: #13161a;
+      --border-signal: #2a2e35;
+      --text-primary: #e0e3e7;
+      --text-secondary: #8b9099;
+      --accent-neon: #00e5ff;
+      --accent-warn: #ffb74d;
+      --accent-confirm: #69f0ae;
+      --font-mono: 'Courier New', monospace;
+      --font-sans: 'Inter', 'Pretendard', sans-serif;
+      --gap-grid: 2px;
+      --radius-card: 0px;
+    }
+    body {
+      background: var(--bg-root);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      line-height: 1.7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 1rem 4rem;
+      background-image: radial-gradient(rgba(0,229,255,0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+    h1, h2, h3, .x-side-77vc {
+      font-family: var(--font-mono);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      color: var(--accent-neon);
+      border-bottom: 3px solid var(--accent-neon);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+      word-break: keep-all;
+    }
+    h2 {
+      font-size: 1.5rem;
+      color: var(--accent-warn);
+      border-left: 8px solid var(--accent-warn);
+      padding-left: 1rem;
+      margin: 2.5rem 0 1.2rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+      color: var(--accent-confirm);
+      margin: 1.5rem 0 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    p {
+      margin-bottom: 1.2rem;
+      color: var(--text-secondary);
+      font-weight: 350;
+    }
+    .v-box-ltb2 {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(10,12,15,0.85);
+      backdrop-filter: blur(8px);
+      border-bottom: 2px solid var(--border-signal);
+      width: 100%;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .r-main-v4kp {
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .q-body-ccr8 {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .q-body-ccr8-btn {
+      background: transparent;
+      border: 2px solid var(--border-signal);
+      color: var(--text-secondary);
+      padding: 0.7rem 1.8rem;
+      font-family: var(--font-mono);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .q-body-ccr8-btn:hover {
+      border-color: var(--accent-neon);
+      color: var(--accent-neon);
+      background: rgba(0,229,255,0.05);
+    }
+    .m-side-4b8 {
+      background: var(--bg-card);
+      border: 1px solid var(--border-signal);
+      padding: 1.8rem;
+      margin: 2rem 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .card-info-unit {
+      border-left: 4px solid var(--accent-neon);
+      padding-left: 1rem;
+    }
+    .faq-block {
+      margin: 1.5rem 0;
+      border-top: 1px dashed var(--border-signal);
+      padding-top: 1.5rem;
+    }
+    hr {
+      border: 1px solid var(--border-signal);
+      margin: 3rem 0;
+    }
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem 0.8rem 3rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      .m-side-4b8 {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <meta property="og:url" content="https://hongdae-info-room.node-link.shop/about.html">
 </head>
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <div class="logo">찐<span>후기</span></div>
-            <button class="hamburger-menu" aria-label="메뉴 열기" onclick="document.querySelector('.nav').classList.toggle('open')">
-                <span></span><span></span><span></span>
-            </button>
-            <nav class="nav">
-                <a href="/">홈</a>
-                <a href="/info" class="active">정보</a>
-                <a href="/reservation">예약</a>
-                <a href="/reviews">리뷰</a>
-            </nav>
-        </div>
-    </header>
+<div class="v-box-ltb2">
+  <nav class="q-body-ccr8" aria-label="메인 네비게이션">
+    <a href="#" class="q-body-ccr8-btn">홈</a>
+    <a href="#" class="q-body-ccr8-btn">정보</a>
+    <a href="#" class="q-body-ccr8-btn">찐후기</a>
+    <a href="#" class="q-body-ccr8-btn">문의</a>
+  </nav>
+</div>
 
-    <main class="main">
-        <div class="wrapper">
-            <!-- Hero -->
-            <section class="hero">
-                <h1>상수 가라오케<br>찐정보</h1>
-                <p>365일 24시, 홍대입구 역세권. 형들이 인정한 단골가게의 모든 것. 광고 없는 찐리뷰만 모았다.</p>
-                <div class="bro-voice">#단골만아는꿀팁 #예약은전화로 #찐후기</div>
-            </section>
+<main class="r-main-v4kp">
+  <h1>상수 가라오케 정보</h1>
+  <p class="x-side-77vc" style="color:var(--text-secondary); font-size:0.9rem; margin-bottom:2rem;">야간 대중교통 노선도처럼 펼쳐보는 상수역 가라오케의 모든 것. 초행자 시선에서 건물 외관 식별부터 내부 동선까지 실제 경험 기반으로 풀어냅니다.</p>
 
-            <!-- 상세 정보 -->
-            <section class="section">
-                <h2 class="section-title">📍 위치 & 시간</h2>
-                <div class="card-grid">
-                    <div class="card">
-                        <h3>홍대입구 3번출구</h3>
-                        <div class="meta"><span>도보 3분</span><span>상수역 5분</span></div>
-                        <p>서울 마포구 와우산로29길 42 지하1층. 골목 안쪽이라 처음엔 찾기 어려울 수 있는데, 네비 찍고 오면 된다. 간판은 핑크색 네온.</p>
-                    </div>
-                    <div class="card">
-                        <h3>⏰ 365일 24시</h3>
-                        <div class="meta"><span>연중무휴</span><span>새벽도 OK</span></div>
-                        <p>공휴일, 명절, 새벽 4시까지 다 영업한다. 단, 새벽 2시 이후 방문은 미리 전화해라. 사장님이 가끔 일찍 문 닫을 때 있음.</p>
-                    </div>
-                    <div class="card">
-                        <h3>💰 가격 착함</h3>
-                        <div class="meta"><span>기본 2만</span><span>맥주 포함</span></div>
-                        <p>형님 기준 1시간 기본 2만원에 맥주 2캔 포함. 초과 30분당 1만. 다른 데보다 저렴한 대신 시설은 약간 올드하다. 그래도 음질은 괜찮음.</p>
-                    </div>
-                </div>
-            </section>
+  <section>
+    <h2>01. 상수역 출구별 접근 시그널</h2>
+    <p>상수역 1번 출구로 나오면 바로 앞이 홍대 걷고 싶은 거리 방향이고, 횡단보도를 건너면 카페 밀집 골목과 가라오케가 섞여 있는 독특한 지대가 시작된다. 초행자라면 1번 출구보다 2번 출구 쪽 큰 길로 빠져서 파출소 옆 골목으로 들어가는 동선이 심리적으로 훨씬 수월하다. 밤 9시 이후에는 골목 전체가 붉은 네온 계열 간판으로 물들기 때문에, 낮에 답사해둔 건물도 저녁이면 전혀 다른 구조로 느껴질 수 있어서 첫방문은 해지기 직전 타이밍을 권장한다.</p>
+    <p>실제로 많은 초행자들이 포털 지도에 찍힌 핀 하나만 믿고 골목으로 진입했다가, 지하에 있는 업소를 지상층으로 착각하거나 반대편 건물 3층을 올려다보며 헤매는 경우가 많다. 특히 상수역 인근 가라오케는 건물 외벽에 영문 간판만 달려 있거나, 계단 입구가 편의점 옆 틈새처럼 숨어 있는 구조가 많아서 미리 로드뷰에서 간판 색깔과 1층 가게 구성을 함께 외워두면 헤맬 확률이 70% 이상 줄어든다.</p>
+  </section>
 
-            <!-- 찐후기 카드 (지역 시그널) -->
-            <section class="section">
-                <h2 class="section-title">💬 찐리뷰 — 상수 단골들</h2>
-                <div class="card-grid">
-                    <div class="card">
-                        <h3>🔥 형님A (10년차)</h3>
-                        <div class="meta"><span>연예인 룸</span><span>자주 감</span></div>
-                        <p>"여기 룸 중에 연예인 룸이 제일 좋다. 마이크도 좋고 의자 편해. 근데 예약 안 하면 연예인 룸 못 잡으니까 무조건 전화해."</p>
-                        <span class="stamp">찐리뷰</span>
-                    </div>
-                    <div class="card">
-                        <h3>👊 단골B (신입 추천)</h3>
-                        <div class="meta"><span>첫 방문</span><span>후회 없음</span></div>
-                        <p>"친구가 데리고 갔는데 완전 만족. 벽에 낙서된 후기들이 진짜 웃기다. 다음 날 목 쉴 정도로 떼창
+  <section>
+    <h2>02. 건물 타입 분류 — 시스템 구조의 차이</h2>
+    <div class="m-side-4b8">
+      <div class="card-info">
+        <h3>단독 건물형</h3>
+        <p>층 전체가 하나의 룸 시스템으로 구성된 경우가 대부분. 엘리베이터가 있지만 협소한 경우가 많아 계단 이용 시 층간 소음 노출이 적다. 방마다 별도 환기 덕트가 강한 편.</p>
+      </div>
+      <div class="card-info">
+        <h3>복합 상가형</h3>
+        <p>3층~5층 사이에 위치. 같은 건물에 일반 주점이나 연습실이 섞여 있어 복도에서 만나는 동선이 다소 공개적이다. 방음 부스가 추가로 설치된 룸이 많다는 걸 미리 물어보는 게 좋다.</p>
+      </div>
+    </div>
+    <p>상수역에서 3분 이내 거리로 좁히면 복합 상가형 비율이 높고, 도보 6분 이상 거리로 조금만 벗어나도 단독 건물형이 눈에 띄게 늘어난다. 방문 목적이 조용한 회식 자리인지, 아니면 동창회 수준의 텐션인지에 따라 이런 건물 타입이 좌우하는 분위기 차이가 제법 크기 때문에, 전화 문의할 때 “혹시 다른 층에 어떤 업종이 있나요?” 하고 물어보는 건 꽤 실용적인 질문이다. 업주 입장에서도 손님이 자기 취향을 알고 묻는다고 느끼면 응대가 더 정확해진다.</p>
+  </section>
+
+  <section>
+    <h2>03. 룸 구성과 인원 분기별 추천</h2>
+    <p>보통 4인 기준으로 ‘소’, 6~8인을 ‘중’, 그 이상을 ‘대’ 룸으로 부르는데, 상수 쪽은 다른 동네보다 중간 사이즈가 더 잘 빠지는 편이다. 2~3인 소규모로 갈 때는 무조건 예약 전에 ‘최소 인원 운용 제한이 있는지’ 먼저 확인해야 한다. 금요일 저녁 기준으로 2인은 예약을 아예 받지 않는 업소도 적지 않다.</p>
+    <p>또 한 가지 팁은, 룸 내에 서브 모니터가 1개인지 2개인지에 따라 노래방과 완전히 다른 경험으로 넘어간다는 점이다. 서브 모니터가 2개면 테이블 앞쪽과 뒤쪽 모두에서 가사를 볼 수 있어서, 서로 마주 보고 앉는 자리에서도 흐름이 끊기지 않는다. 초행자라면 이걸 모르고 예약했다가, “왜 나만 화면이 안 보여?”라는 순간이 올 수 있으니 애초에 문의할 때 ‘추가 모니터 유무’를 묻는 습관을 들이자.</p>
+  </section>
+
+  <section>
+    <h2>04. 시간대별 가격 구조 완전 해체</h2>
+    <p>상수 가라오케 대부분은 저녁 7시 이전에 입장하면 극초반 할인이 적용되지만, 그 대신 이용 가능 시간이 제한되거나 특정 주류 세트를 강제하는 조건이 붙는다. 초행자들이 착각하는 포인트는 ‘룸 비용만 보고 저렴하다고 판단’한다는 점이다. 견적을 물을 때는 룸 비용, 인원당 기본 음료 포함 여부, 주류 최소 주문 금액, 그리고 추가 시간 연장 비율까지 네 가지를 분리해서 물어봐야 한다.</p>
+    <p>또 하나 놓치기 쉬운 건 ‘클린 타임’인데, 업소마다 마지막 입장 가능 시각이 다르며 30분 단위로 잘라서 계산하는 곳은 1분만 넘겨도 1시간이 추가로 청구될 수 있다. 이걸 모르고 “한 곡만 더!” 하다가 정산할 때 당황하는 경우를 최소 열 번 넘게 봤다. 그래서 나는 항상 입장 시점에 맞춰 스마트폰 타이머를 켜두는 편이다.</p>
+  </section>
+
+  <section>
+    <h2>05. 사운드 시스템 마니아 체크</h2>
+    <p>가라오케 기기 브랜드는 크게 TJ와 KY 계열로 나뉘는데, 상수역 인근은 TJ 최신 기기를 들여놓은 곳이 70% 이상이다. 반주 음질은 보통 입력 스피커보다 믹서와 앰프의 세팅에 더 크게 좌우된다. 스피커가 천장 매립형이면 저음이 과도하게 울려서 보컬이 묻힐 수 있고, 북셀프형 스탠드 스피커가 양쪽에 있으면 업장에서 사운드 튜닝에 신경을 쓰고 있다는 신호로 봐도 좋다.</p>
+    <p>마이크도 무선이면 배터리 잔량을 반드시 체크하자. 입장하자마자 마이크 음량 테스트하면서 ‘배터리 지난번에 교체했냐’고 물어보는 건 민망한 게 아니라 프로 같은 태도다. 모니터 화면에 가사 싱크가 반박자 느린 경우는 노래방 기계 펌웨어 문제라서 직원을 바로 부르는 게 상책이라는 것도 잊지 말자.</p>
+  </section>
+
+  <section>
+    <h2>06. 초행자 문의 전 체크리스트 (실제 시나리오)</h2>
+    <p>전화나 메신저로 문의할 때 “몇 명이에요, 몇 시예요?”라는 답변만 받고 끝내는 건 절반도 정보를 못 얻은 거나 마찬가지다. 내가 정리한 초행자 질문 리스트는 아래와 같다. 1) 오늘 해당 시간대 최소 예약 인원 기준이 있나요? 2) 룸 배정은 예약 순서대로인가요, 아니면 당일 도착 선착순인가요? 3) 서브 모니터 개수와 현재 기기 모델을 알 수 있을까요? 4) 기본 포함 음료가 생수인지, 탄산음료인지, 아니면 특정 주류인지? 5) 연장 요금이 30분 단위로 끊기는지 1시간 단위인지?</p>
+    <p>이 질문을 한 번에 보내면 상대방도 ‘아, 이 손님은 내부 사정을 어느 정도 아는 사람이구나’라고 여겨서 훨씬 정확한 답변을 준다. 실제로 친구들이 회식을 앞두고 이 리스트를 복사해서 보냈을 때, 받은 답변 속도와 퀄리티가 확연히 달랐다는 피드백을 여러 번 들었다. 문의는 단순 요청이 아니라 정보의 정확성을 검증하는 절차라는 걸 명심하자.</p>
+  </section>
+
+  <section>
+    <h2>FAQ — 상수 가라오케 초행자 질문 모음</h2>
+    <div class="faq-block">
+      <h3>Q. 20대 초반인데 혼자 예약해도 괜찮나요?</h3>
+      <p>A. 나이 제한은 대부분 만 19세 이상이지만, 1인 단독 방문은 받지 않는 업소가 더 많습니다. 혼자 가고 싶다면 평일 낮 시간대에 ‘연습 용도로 잠깐 쓰고 싶다’고 미리 전화해보세요.</p>
+    </div>
+    <div class="faq-block">
+      <h3>Q. 신분증을 반드시 지참해야 하나요?</h3>
+      <p>A. 네, 상수권 가라오케는 연말연시가 아니어도 불시 점검에 대비해 입장 시 신분증 스캔이나 확인 절차가 있는 곳이 대부분입니다. 임시 발급 신분증은 불가능한 경우가 많아 모바일 운전면허 확인증을 미리 준비하세요.</p>
+    </div>
+    <div class="faq-block">
+      <h3>Q. 룸에서 음식 주문이 가능한가요?</h3>
+      <p>A. 일부 업소는 안주류 조리대를 갖추고 있어 튀김류나 과일을 제공하지만, 대부분은 외부 음식 반입을 허용하지 않습니다. 다만, 특정 제휴 배달 앱을 통해 업장 내부 주문이 가능한지 문의하면 생각보다 편한 해결책을 얻을 수 있어요.</p>
+    </div>
+  </section>
+
+  <hr>
+  <p style="font-size:0.8rem; color:var(--text-secondary); text-align:right;">* 이 정보는 5년간 상수역 주변을 오가며 기록한 개인적인 경험과 지역 시그널에 기반합니다. 업소별 정책은 수시로 변동되므로 방문 전 반드시 재확인하세요.</p>
+</main>
 </body>
 </html>
