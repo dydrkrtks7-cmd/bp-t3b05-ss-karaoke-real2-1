@@ -21,17 +21,87 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260705-1079.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260705-495.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260719-0369.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260719-0373.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260719-0374.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260721-0088.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260722-0370.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260722-0374.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/guide-001-1gv8i70.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/qa-002-1gv8i70.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/juice-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/normal-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/normal-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/normal-3.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/review-001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260705-1079.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -47,16 +117,6 @@
   </url>
   <url>
     <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260719-0372.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260719-0373.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260719-0374.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -111,11 +171,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260721-0088.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260722-0364.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -146,11 +201,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260722-0370.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260722-0371.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -162,61 +212,6 @@
   </url>
   <url>
     <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260722-0373.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/gemini-coverage-20260722-0374.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/guide-001-1gv8i70.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/juice-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/juice-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/normal-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/normal-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/normal-3.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/qa-002-1gv8i70.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts/review-001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-info-room.node-link.shop/posts-2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
